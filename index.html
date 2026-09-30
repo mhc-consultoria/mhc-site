@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MHC Consultoria Empresarial | Dados, BI e Automação</title>
+<meta name="description" content="Consultoria em Business Intelligence, analytics, governança de dados, automação de processos e inteligência artificial para empresas que precisam decidir com clareza.">
+<link rel="icon" type="image/svg+xml" href="MHC_A1_favicon.svg">
+<link rel="icon" type="image/png" sizes="512x512" href="MHC_A1_favicon_512px.png">
+<style>
+  :root {
+    --petroleo: #364B59;
+    --agua: #24A6A1;
+    --grafite: #20272B;
+    --fundo: #F7F9FA;
+    --linha: #DDE4E8;
+    --branco: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--grafite);
+    background: var(--branco);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(255,255,255,.94);
+    border-bottom: 1px solid var(--linha);
+    backdrop-filter: blur(6px);
+  }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+  header img { height: 40px; width: auto; display: block; }
+  nav { display: flex; gap: 22px; font-size: 15px; }
+  nav a { color: var(--petroleo); text-decoration: none; }
+  nav a:hover { color: var(--agua); }
+  .hero { background: var(--petroleo); color: var(--branco); padding: 88px 0 80px; }
+  .hero h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.15; margin: 0 0 18px; max-width: 760px; }
+  .hero h1 span { color: var(--agua); }
+  .hero p { font-size: 18px; max-width: 640px; margin: 0 0 28px; color: #DCE6EB; }
+  .btn {
+    display: inline-block; padding: 13px 24px; border-radius: 6px;
+    background: var(--agua); color: var(--branco); text-decoration: none; font-weight: 600;
+  }
+  .btn:hover { background: #1d8c88; }
+  section { padding: 68px 0; }
+  section.alt { background: var(--fundo); }
+  h2 { font-size: 28px; color: var(--petroleo); margin: 0 0 8px; }
+  .sub { color: #5A6870; margin: 0 0 34px; max-width: 680px; }
+  .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .card { background: var(--branco); border: 1px solid var(--linha); border-radius: 10px; padding: 24px; }
+  .card h3 { margin: 0 0 8px; font-size: 18px; color: var(--petroleo); }
+  .card p { margin: 0; color: #46545C; font-size: 15px; }
+  .card .marca { width: 34px; height: 4px; background: var(--agua); border-radius: 2px; margin-bottom: 14px; }
+  ol.passos { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  ol.passos li { display: flex; gap: 16px; align-items: flex-start; }
+  ol.passos b {
+    flex: none; width: 34px; height: 34px; border-radius: 50%;
+    background: var(--petroleo); color: var(--branco);
+    display: grid; place-items: center; font-size: 15px;
+  }
+  ol.passos p { margin: 3px 0 0; }
+  .lista { columns: 2; column-gap: 32px; padding-left: 18px; margin: 0; }
+  @media (max-width: 640px) { .lista { columns: 1; } nav { display: none; } }
+  .contato dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 22px; margin: 0; }
+  .contato dt { font-weight: 600; color: var(--petroleo); }
+  .contato dd { margin: 0; }
+  .contato a { color: var(--agua); }
+  footer { background: var(--grafite); color: #B9C3C9; padding: 36px 0; font-size: 14px; }
+  footer strong { color: var(--branco); }
+  footer p { margin: 4px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="#topo" aria-label="MHC Consultoria Empresarial"><img src="MHC_A1_horizontal.svg" alt="MHC Consultoria"></a>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#metodo">Como trabalhamos</a>
+      <a href="#quem">Para quem</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+  <div class="hero">
+    <div class="wrap">
+      <h1>Dados organizados que viram <span>direção</span> para decisões melhores.</h1>
+      <p>A MHC Consultoria Empresarial ajuda empresas a entender o próprio negócio, organizar seus dados e automatizar processos, com foco em clareza para decidir.</p>
+      <a class="btn" href="#contato">Fale com a MHC</a>
+    </div>
+  </div>
+
+  <section id="servicos">
+    <div class="wrap">
+      <h2>O que fazemos</h2>
+      <p class="sub">Tecnologia é o meio. O objetivo é que a gestão enxergue com clareza o que acontece na operação e decida com segurança.</p>
+      <div class="grid">
+        <div class="card"><div class="marca"></div><h3>Business Intelligence e Analytics</h3><p>Painéis e indicadores de gestão em Power BI, construídos a partir das perguntas que a diretoria realmente precisa responder.</p></div>
+        <div class="card"><div class="marca"></div><h3>Governança e qualidade de dados</h3><p>Dicionário de dados, responsáveis por cada informação e regras para que os números da empresa sejam confiáveis.</p></div>
+        <div class="card"><div class="marca"></div><h3>Arquitetura e integração de dados</h3><p>Conexão entre sistemas, planilhas e bases para que a informação circule sem retrabalho manual.</p></div>
+        <div class="card"><div class="marca"></div><h3>Automação de processos</h3><p>Mapeamento de processos e automação de rotinas repetitivas, reduzindo erros e tempo de operação.</p></div>
+        <div class="card"><div class="marca"></div><h3>Inteligência artificial aplicada</h3><p>Uso prático de IA em análise, atendimento e produtividade, sempre ligado a um problema de negócio definido.</p></div>
+        <div class="card"><div class="marca"></div><h3>Desenvolvimento de soluções sob medida</h3><p>Sistemas e portais para necessidades específicas de operação e gestão, do desenho à entrega.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="metodo" class="alt">
+    <div class="wrap">
+      <h2>Como trabalhamos</h2>
+      <p class="sub">Diagnóstico antes de solução. Cada projeto segue um método em etapas, para que a tecnologia resolva o problema certo.</p>
+      <ol class="passos">
+        <li><b>1</b><div><strong>Entender o negócio.</strong><p>Conversas com quem opera e decide, para levantar objetivos, dores e prioridades.</p></div></li>
+        <li><b>2</b><div><strong>Diagnosticar processos e dados.</strong><p>Mapeamos como o trabalho acontece e onde estão as informações, antes de propor qualquer ferramenta.</p></div></li>
+        <li><b>3</b><div><strong>Desenhar e construir.</strong><p>Arquitetura, indicadores definidos com o cliente e construção da solução.</p></div></li>
+        <li><b>4</b><div><strong>Capacitar e evoluir.</strong><p>Treinamento da equipe e acompanhamento para que a solução continue útil ao longo do tempo.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="quem">
+    <div class="wrap">
+      <h2>Para quem</h2>
+      <p class="sub">Empresas que querem sair da decisão por intuição e planilhas soltas.</p>
+      <ul class="lista">
+        <li>Agronegócio</li>
+        <li>Distribuidoras</li>
+        <li>Indústrias</li>
+        <li>Transportadoras</li>
+        <li>Varejo</li>
+        <li>Prestadores de serviço</li>
+        <li>Escritórios de contabilidade</li>
+        <li>Empresas em crescimento</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato" class="alt contato">
+    <div class="wrap">
+      <h2>Contato</h2>
+      <p class="sub">Conte o desafio da sua empresa. Respondemos com os próximos passos possíveis.</p>
+      <dl>
+        <dt>E-mail</dt><dd><a href="mailto:marques.viana@mhcconsultoria.com.br">marques.viana@mhcconsultoria.com.br</a></dd>
+        <dt>Telefone</dt><dd>(31) 97213-7991</dd>
+        <dt>Endereço</dt><dd>Av. João Lage, 1968, Bloco 19 Casa 201, Gabiroba, Itabira/MG, CEP 35.902-086</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>MHC Consultoria Empresarial Ltda</strong></p>
+    <p>CNPJ 67.622.997/0001-92</p>
+    <p>Av. João Lage, 1968, Bloco 19 Casa 201, Gabiroba, Itabira/MG, CEP 35.902-086</p>
+    <p>&copy; 2026 MHC Consultoria Empresarial Ltda. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
